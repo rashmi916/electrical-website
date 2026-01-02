@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    color: #070707;
+    height: 700px;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+   margin: -8px -8px;
+
+}
+.logo{
+    color: rgb(236, 226, 226);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-style: bold;
+
+
+}
+.main{
+    background-image: url('./images/workers.jpg');  
+    text-align: center;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:40px 100px;
+    
+}
+.Welcome{
+    padding: 140px 10px;
+    color: black;
+}
+.main{
+    font-size: 30px;
+}
+.btn{
+    background-color:tomato;
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    border:none;
+    border-radius: 30px;
+    padding:1rem 2rem; 
+    display: inline-block;
+    margin: 0;
+}
+.contractor{
+    text-align: center;
+    padding: 1px 2px;
+}
+.ourvision,.ourmission,.ourvalues{
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    box-shadow:10px 10px 10px 10px rgba(0,0,0,0.05);
+}
+.mission{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 10px 30px;
+    font-family:'poppins', sans-serif;
+}
+img{
+    width: 15%;
+    padding-top: 20px;
+
+}
+/* --- CONTACT INFO SECTION --- */
+
+.feed {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 40px;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Left side box */
+.contact-container {
+    width: 70%;
+    box-shadow: 0px 4px 30px rgba(18, 18, 18, 0.05);
+    padding-left: 30px;
+}
+
+.contact-container h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Two-column layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+/* Each small contact box */
+.contact-box h5 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-box p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+/* --- FEEDBACK FORM RIGHT SIDE --- */
+
+.feedback-box {
+    width: 45%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.05);
+}
+
+.feedback-box h2 {
+    margin-bottom: 20px;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.feedback-box button {
+    background: #ff6f2f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px -10px;
+}
+
+

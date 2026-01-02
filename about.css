@@ -1,0 +1,61 @@
+.company{
+    display:flex;
+    gap: 5rem;
+    height: 400px;
+    
+
+}
+.company-about{
+    font-family:'poppins', sans-serif;
+    margin: 10px;  
+    text-align:left;
+    justify-content: space-around;
+}
+.company img{
+    height: 500px;
+    width: 600px;
+}
+.company-about h5{
+    font-size: 37px;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+.company-about p {
+    font-size: 20px;
+    margin: 20px;
+    font-family:'poppins', sans-serif;
+    margin-left: -2opx;
+
+}
+.rash{
+    font-size: 20px;
+    font-family:'poppins', sans-serif;
+}
+.company1{
+    display:flex;
+    gap:5rem;
+    height: 400px;
+    margin: 150px;
+}
+.company-about1 h1{
+    margin-bottom: -10px;
+    font-family: 'poppins', sans-serif;
+}
+.company-about1 h5{
+    font-family: 'poppins', sans-serif;
+}
+.company-about1 p{
+font-family: 'poppins', sans-serif;
+font-size: 20px;
+}
+.company1 img{
+    width: 600px;
+    height: 400px;
+}
+.havesection{
+  background-image: url(./images/about.jpg);
+  text-align:center;
+  padding: 50px;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
